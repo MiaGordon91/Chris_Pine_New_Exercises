@@ -86,3 +86,6 @@ read_array = YAML::load read_string
 
 puts read_string
 puts read_array
+
+
+puts test_string
