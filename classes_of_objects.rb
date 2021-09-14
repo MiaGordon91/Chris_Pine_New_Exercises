@@ -1,4 +1,3 @@
-
 #one billion seconds
 
 birthdate = Time.local(1991, 4,7)
@@ -80,3 +79,30 @@ def integer_roman(letters)
 puts "Enter random letters"
 i = gets.chomp().upcase.split(//)
 puts integer_roman(i)
+
+
+
+#Birthday Helper - skipped
+
+ # data = { "Christopher Alexander" => "Oct 4 1936",
+ #        "Christopher Lambert" => "Mar 29 1957",
+ #        "Christopher Lee" => "May 27 1922",
+ #        "Christopher Lloyd" => "Oct 22 1938",
+ #        "Christopher Pine" => "Aug 3 1976",
+ #        "Christopher Plummer" => "Dec 13 1927",
+ #        "Christopher Walken" => "Mar 31 1943",
+ #        "The King of Spain" => "Jan 5 1938" }
+ #
+ #      puts "Whose birthday are you looking for?"
+ #      birthday = gets.chomp().to_s
+ #
+ #      data.values.each do |x|
+ #        if x != birthday
+ #          print "Oops, we don't know that name!"
+ #        else
+ #          print data[x]
+ #        end
+ #      end
+ #
+ #      # puts data.keys()
+ #      # puts data.values()
